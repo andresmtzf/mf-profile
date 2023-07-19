@@ -44,6 +44,13 @@ body {
 
 .first-section {
   position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 550px;
+  height: 607px;
+  /* height: 650px;
+  width: 860px;
+  padding: 24px; */
 }
 
 .main-card {
@@ -82,7 +89,7 @@ body {
   border-radius: 16px;
   display: flex;
   justify-content: space-around;
-  height: 100px;
+  height: 300px;
   padding-top: 52px;
   font-size: 1.2em;
   position: absolute;
@@ -174,9 +181,9 @@ body {
   }
 
   .first-section {
-    width: 280px;
-    height: 564px;
-    padding-top: 24px;
+    width: 650px;
+    height: 650px;
+    padding-top: 25px;
   }
   .second-section {
     height: 650px;
@@ -235,6 +242,6 @@ body {
   }
 
   .card__hours {
-    font-size: 3em;
+    font-size: 2em;
   }
 }

@@ -1,5 +1,4 @@
-import Item from './components/Item'
-import './styles/styles.css'
+import CardUser from './components/CardUser'
 
 export default function Root(props) {
   return (
@@ -12,9 +11,8 @@ export default function Root(props) {
             justifyContent: 'center',
             alignItems: 'center',
           }}>
-          <div className='second-section'>
-            <Item></Item>
-            <Item></Item>
+          <div className=''>
+            <CardUser></CardUser>
           </div>
         </div>
       </section>
